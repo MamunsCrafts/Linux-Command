@@ -83,6 +83,37 @@ nano [file_name]
 cat [file_name]
 ```
 ### Create New Empty File
-```touch [file-name]
 ```
+touch [file-name]
+```
+
+## System Monitoring and process control
+
+### Display running processes and resource usage
+```
+top
+```
+### Enhance version of top .(Needs to be installed)
+```
+htop
+```
+### List of all running processes
+```
+ps aux
+```
+### Terminate a process
+```
+kill [process-id]
+```
+### Show disk usage
+
+``` 
+df -h
+```
+### Show memory usage
+```
+free -h
+```
+
+
 
