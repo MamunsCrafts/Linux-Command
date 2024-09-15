@@ -1,4 +1,4 @@
-# Linux-Command 
+# Linux  Essential Commands 
 
 ## Package Management
 
