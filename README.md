@@ -15,19 +15,19 @@ sudo apt upgrade
 ### Install debian packages
 
 ```
-sudo dpkg -i file.deb
+sudo dpkg -i [file.deb]
 ```
 
 
 ### Search Packages 
 
 ```
-dpkg -l | grep virtualbox
+dpkg -l | grep [file_name]
 ```
 ### UnInstall debian packages
 
 ```
-sudo apt-get remove --purge <package-name>
+sudo apt-get remove --purge [package-name]
 
 ```
 
@@ -59,7 +59,7 @@ mkdir
 ```
 ### Remove File 
 ```
-rm filename
+rm [filename]
 ```
 
 ### Copy files or directories
@@ -69,5 +69,20 @@ cp [source] [destinaiton]
 ### Move file or directories
 ```
 mv [source] [destination]
+```
+
+## File Editing
+
+### Open file and nano editor
+```
+nano [file_name]
+```
+
+### Display Content
+```
+cat [file_name]
+```
+### Create New Empty File
+```touch [file-name]
 ```
 
